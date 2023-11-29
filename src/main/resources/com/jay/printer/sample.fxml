@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.layout.StackPane?>
+
+
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.jay.printer.SampleController"
+      spacing="15">
+
+
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+
+    <StackPane>
+        <Label fx:id="title" text="继保装置虚拟打印与定值比对系统" style="-fx-font-family: Georgia; -fx-font-size: 60px; -fx-text-fill: green;" />
+    </StackPane>
+    <HBox spacing="10" prefWidth="800" prefHeight="60">
+        <Button fx:id="listenComportBtn" text="启动串口监听" styleClass="custom-button" onAction="#listenComPort"/>
+    </HBox>
+
+    <HBox spacing="20" prefWidth="800" prefHeight="60">
+        <Button fx:id="standardFileButton" text="选择标准值文件" styleClass="custom-button" onAction="#selectStandardFile" />
+        <Label fx:id="hintStandard" text="标准值文件:" styleClass="txt" />
+        <Label fx:id="standardFileLabel" styleClass="txt" />
+    </HBox>
+    <HBox spacing="10">
+        <Label text="标准设备名:" styleClass="txt"/>
+        <Label fx:id="stdDeviceName"  styleClass="txt"/>
+    </HBox>
+
+    <HBox spacing="20" prefWidth="800" prefHeight="60">
+        <Button fx:id="printFileButton" text="选择打印文件" styleClass="custom-button"  onAction="#selectPrintFile" />
+        <Label fx:id="hintPrint" text="打印文件:" styleClass="txt" />
+        <Label fx:id="printFileLabel" styleClass="txt" />
+    </HBox>
+    <HBox>
+        <Label text="打印设备名:" styleClass="txt"/>
+        <Label fx:id="printDeviceName"  styleClass="txt"/>
+    </HBox>
+
+    <HBox spacing="10">
+
+        <StackPane>
+            <Button fx:id="compareButton" text="比对" styleClass="custom-button"  onAction="#compare" />
+        </StackPane>
+        <StackPane>
+            <Button fx:id="saveButton" text="保存" styleClass="custom-button" onAction="#save" />
+        </StackPane>
+
+    </HBox>
+
+</VBox>
+
+

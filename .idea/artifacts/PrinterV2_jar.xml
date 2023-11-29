@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact name="PrinterV2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PrinterV2_jar</output-path>
+    <root id="root">
+      <element id="archive" name="PrinterV2.jar">
+        <element id="module-output" name="PrinterV2" />
+      </element>
+      <element id="library" level="project" name="Maven: technology.tabula:tabula:1.0.5" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:11" />
+      <element id="library" level="project" name="Maven: org.locationtech.jts:jts-core:1.18.1" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:jbig2-imageio:3.0.3" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.21" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:11" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.32" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:11" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:5.2.0" />
+      <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.06" />
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:linux:11" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:pdfbox:2.0.24" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.7" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-lite:5.2.0" />
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcmail-jdk15on:1.69" />
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcutil-jdk15on:1.69" />
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.32" />
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.69" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.9.0" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi:5.2.0" />
+      <element id="library" level="project" name="jna" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
+      <element id="library" level="project" name="Maven: com.github.jai-imageio:jai-imageio-jpeg2000:1.4.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:linux:11" />
+      <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.4" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:linux:11" />
+      <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:5.0.3" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:11" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi-scratchpad:5.2.0" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-math3:3.6.1" />
+      <element id="library" level="project" name="Maven: com.github.jai-imageio:jai-imageio-core:1.4.0" />
+      <element id="library" level="project" name="Maven: com.zaxxer:SparseBitSet:1.2" />
+      <element id="library" level="project" name="Maven: org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:fontbox:2.0.24" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:linux:11" />
+      <element id="library" level="project" name="purejavacomm" />
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.69" />
+    </root>
+  </artifact>
+</component>

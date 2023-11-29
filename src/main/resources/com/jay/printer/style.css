@@ -1,0 +1,24 @@
+.custom-button{
+
+    -fx-pref-width: 250px;
+    -fx-pref-height: 60px;
+    -fx-font-size: 28px;
+
+}
+.txt {
+    -fx-font-size: 30px;
+    -fx-pref-height: 60px;
+}
+.my-dialog-pane {
+    -fx-pref-width: 1500px;
+    -fx-pref-height: 800px;
+    -fx-background-color: lightblue;
+    -fx-font-size: 30px;
+
+}
+
+.table-view {
+    -fx-pref-width: 400px;
+    -fx-pref-height:800 ;
+    -fx-font-size: 30px;
+}
